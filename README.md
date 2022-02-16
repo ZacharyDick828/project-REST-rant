@@ -2,8 +2,29 @@
 
 REST-Rant is an app where users can review restaurants
 
-As a passionate food-lover and web-developer, I need an app that provides a space to read and write reviews on restaurants so I can assess the food options I have around me. 
+## Wireframes
 
+### users:
+
+- Add/Delete/Update Restaurant Information
+- Review and Comment on Restaurants
+- Ability to Interact with Each Page and Form
+- Tag reviews with name instead of using an account
+
+### What I need:
+
+- add and delete locations
+- post, update and delete comments
+- add pictures to locations
+- add star rating with reviews
+
+## Languages/Tools
+
+- Express/Node.js
+- CSS
+- React/JSX
+
+## Routes
 
 | Method     | Path | Purpose     |
 | :---        |    :----:   |          ---: |
@@ -18,3 +39,37 @@ As a passionate food-lover and web-developer, I need an app that provides a spac
 | POST   |  /places/:id/rant |   Create a rant (comment) about a particular place    |
 | Delete   |  /places/:id/rantld |   Delete a rant (comment) about a particular place    |
 | GET   |  * |   404 page (matches any route not deined above)    |
+
+## Database
+
+### Places
+
+|   Field | Type    |
+| :---    | :----:   |  
+|   _id    |   Object ID   |
+|   name    |   String   |
+|   city    |   String   |
+|   state    |   String   |
+|   cuisines    |   String   |
+|   pic    |   String   |
+
+### Rants
+
+|   Field | Type    |
+| :---    | :----:   |  
+|   _id    |   Object ID   |
+|   place_id    |   ref(places) Object_id   |
+|   rant    |   Boolean   |
+|   rating    |   Number   |
+|   comment    |   String   |
+|   reviewer    |   String   |
+
+## CSS
+
+### Color Scheme
+
+|   COLORS    |
+| :---  |
+|   #4B7F52 |
+|   #DCBF85 |
+|   #E5625E |
