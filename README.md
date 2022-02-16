@@ -9,3 +9,4 @@ As a passionate food-lover and web-developer, I need an app that provides a spac
 | :---        |    :----:   |          ---: |
 | GET        | /       | Homepage  |
 | GET   | /places        | places index page      |
+| POST   |  /places |   Create new place    |
