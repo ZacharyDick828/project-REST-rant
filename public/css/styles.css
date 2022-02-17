@@ -5,4 +5,42 @@ h1 {
 img {
     max-height: 400px;
 }
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+    
+}
+nav {
+    background-color: cornflowerblue;
+    padding: 10px;
+    
+}
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    font-size: 2.3em;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: none;
+}
