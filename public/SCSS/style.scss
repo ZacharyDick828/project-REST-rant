@@ -1,0 +1,57 @@
+$primary-color: #ffffff;
+$secondary-color: cornflowerblue;
+$hover-color: pink;
+$text-color: slateblue;
+$background: lightblue;
+$format-text: center;
+$max-y: 400px;
+$min-y: 400px;
+
+
+h1 {
+    text-align: $format-text;
+    color: $text-color;
+}
+img {
+    max-height: $max-y;
+    min-height: $min-y;
+}
+body {
+    background-color: $background;
+    text-align: $format-text;
+}
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: $primary-color;
+    
+}
+nav {
+    background-color: $secondary-color;
+    padding: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: $format-text;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: $primary-color;
+    font-size: 2.3em;
+    align-items: $format-text;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: $hover-color;
+    text-decoration: none;
+}
